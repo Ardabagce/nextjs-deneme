@@ -4,23 +4,19 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Arda Bağçe</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Sayfa Title kısmı
         </h1>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://chillbasic.com" className="card">
+            <h3>Giyim &rarr;</h3>
+            <p>Giyim sektöründe yer alan sitemizi ziyaret edin.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
