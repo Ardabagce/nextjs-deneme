@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -19,21 +20,19 @@ export default function Home() {
             <p>Giyim sektöründe yer alan sitemizi ziyaret edin.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+        <Link href="/posts/first-post">
+        <a className="card">
+        <h3>Gönderiler &rarr;</h3>
+        <p>Gönderiler sayfasına gitmek için buraya tıklayınız.</p></a></Link>
+
+            <Link href="/contact">
+        <a className="card">
+            <h3>İletişim &rarr;</h3>
+            <p>Discover and deploy boilerplate example Next.js projects.</p></a>
+          </Link>
 
           <a
-            href="https://github.com/zeit/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="contact"
             className="card"
           >
             <h3>Deploy &rarr;</h3>
